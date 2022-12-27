@@ -1,3 +1,4 @@
+basic.showIcon(IconNames.Rabbit)
 basic.forever(function () {
     if (input.lightLevel() < 10) {
         cuteBot.singleheadlights(cuteBot.RGBLights.RGB_R, 255, 255, 255)
